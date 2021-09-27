@@ -1,0 +1,25 @@
+{
+  "clearMocks": true,
+  "collectCoverage": true,
+  "collectCoverageFrom": ["**/*.ts"],
+  "coveragePathIgnorePatterns": [".+\\.d\\.ts", "index\\.ts"],
+  "coverageThreshold": {
+    "global": {
+      "branches": 100,
+      "functions": 100,
+      "lines": 100,
+      "statements": 100
+    }
+  },
+  "moduleFileExtensions": ["js", "json", "jsx", "ts", "tsx"],
+  "testEnvironment": "jest-environment-jsdom-global",
+  "testRunner": "jest-circus/runner",
+  "transform": {
+    "\\.(j|t)sx?$": [
+      "babel-jest",
+      {
+        "configFile": "./babel.config.js"
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "author": "Codecademy",
+  "description": "ESLint plugin to enforce using `useSelectorWith` when reasonable.",
+  "devDependencies": {
+    "@codecademy/tsconfig": "^0.2.0",
+    "eslint": ">=7"
+  },
+  "homepage": "https://github.com/Codecademy/use-selector-with",
+  "keywords": [
+    "eslint",
+    "react",
+    "react-redux",
+    "redux",
+    "use-selector"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Codecademy/use-selector-with.git"
+  },
+  "main": "src/index.js",
+  "name": "eslint-plugin-use-selector-with",
+  "peerDependencies": {
+    "eslint": ">=7"
+  },
+  "scripts": {},
+  "types": "src/index.d.ts",
+  "version": "0.1.0"
+}

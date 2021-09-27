@@ -1,0 +1,7 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./packages/eslint-plugin-use-selector-with" },
+    { "path": "./packages/use-selector-with" }
+  ]
+}

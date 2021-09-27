@@ -1,0 +1,35 @@
+{
+  "author": "Codecademy",
+  "description": "Small utility for react-redux's `useSelector` that allows passing args.",
+  "devDependencies": {
+    "@codecademy/tsconfig": "^0.2.0",
+    "@testing-library/react-hooks": "^7.0.2",
+    "@types/eslint": "7.28.0",
+    "@types/estree": "0.0.50",
+    "@types/react": "17.0.24",
+    "@types/react-redux": "7.1.18",
+    "eslint": ">=7",
+    "react": ">=16",
+    "react-redux": ">=7"
+  },
+  "homepage": "https://github.com/Codecademy/use-selector-with",
+  "keywords": [
+    "react",
+    "react-redux",
+    "redux",
+    "use-selector"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Codecademy/use-selector-with.git"
+  },
+  "main": "src/index.js",
+  "name": "use-selector-with",
+  "peerDependencies": {
+    "react": ">=16",
+    "react-redux": ">=7"
+  },
+  "types": "src/index.d.ts",
+  "version": "0.1.0"
+}

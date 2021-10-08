@@ -10,6 +10,8 @@ Monorepo for the following two packages:
 - [use-selector-with](https://npmjs.com/package/use-selector-with): Small utility for react-redux's `useSelector` that allows passing args.
 - [eslint-plugin-use-selector-with](https://npmjs.com/package/eslint-plugin-use-selector-with): ESLint plugin to enforce using `useSelectorWith` when reasonable.
 
+See [use-selector-with.md > Why?](./packages/use-selector-with#why) for why this selector is useful! ✨
+
 ## Development
 
 ```shell

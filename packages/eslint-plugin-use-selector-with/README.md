@@ -66,7 +66,7 @@ Enforces using `useSelector` instead of `useSelectorWith` if there are no args t
 Examples of _failing_ code with this rule:
 
 ```ts
-const value = useSelectorWith(state, getValueFromState);
+const value = useSelectorWith(getValueFromState);
 ```
 
 Examples of _passing_ code with this rule:

@@ -2,9 +2,14 @@
 import { useCallback } from 'react';
 import { shallowEqual, useSelector } from 'react-redux';
 
-export type AnySelector<Props extends any[]> = (state: any, ...props: Props) => any;
+export type AnySelector<Props extends any[]> = (
+  state: any,
+  ...props: Props
+) => any;
 
-export type ArgsForSelector<Selector> = Selector extends AnySelector<infer Props>
+export type ArgsForSelector<Selector> = Selector extends AnySelector<
+  infer Props
+>
   ? Props
   : never;
 
